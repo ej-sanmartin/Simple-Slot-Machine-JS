@@ -6,7 +6,7 @@ function processSlots(input, winCond)
   var winning = 0;
   var score = 0;
   var result = input;
-  var winCondArr = winCond
+  var winCondArr = winCond;
 
   for(var x = 0; x < winCondArr.length; ++)
   {
@@ -176,3 +176,4 @@ var array2 = [
 // Output: '2 winning lines, scoring a total 30 points.'
 
 processSlots(array, winCond);
+processSlots(array2, winCond);
