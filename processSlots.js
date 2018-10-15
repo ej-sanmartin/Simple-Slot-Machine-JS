@@ -76,7 +76,7 @@ function compareWin(input, winCond)
         if(winCond[row][column] == 'x' && input[row][column] == winArr[row][0])
 	{
           winItem = input[row][column];
-	  winArr[row].unshift();
+	  winArr[row].unshift(winItem);
 	}
 	// checks for if a win condition is met, minimum 3 matches
 	if(winArr.length >= 3)
